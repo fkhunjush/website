@@ -1,0 +1,177 @@
+::selection {
+    background-color: #8e0936;
+    color: #fff;
+}
+
+::-moz-selection {
+    background-color: #8e0936;
+    color: #fff;
+}
+
+.aside {
+    background-color: #8e0936;
+    color: #fff;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.aside-content *::selection {
+    color: #f2ff33;
+    background-color: red;
+}
+
+.aside-content *::-moz-selection {
+    color: #f2ff33;
+    background-color: red;
+}
+
+.aside-icon {
+    background-color: #fff;
+    color: #8e0936;
+}
+
+.header-style-2 .navbar-nav > li > a.current,
+.header-pagepiling .pl-navbar li.active a,
+a:hover,
+a:active,
+.list-style-4 li:before,
+.color-theme {
+    color: #f2ff33;
+}
+
+.header-style-5 .navbar-nav > li > a:after,
+.header-style-4 .navbar-nav > li > a:hover,
+.header-style-4 .navbar-nav > li > a.current,
+.header-style-3 .navbar-nav > li > a:hover,
+.header-style-3 .navbar-nav > li > a.current,
+.header-style-2 .navbar-nav > li > a:after,
+.heading-style-5:after,
+.header-pagepiling .navbar-brand,
+.pp-toggle,
+.portfolio-box-01 .filter a,
+.list-style-2 li:before,
+.list-style-3 li:before,
+.bg-theme {
+    background: #8e0936;
+}
+
+.heading-style-2:after,
+.heading-style-1:after,
+.list-style-4.list-style-color li {
+    border-color: #8e0936;
+}
+
+.btn.btn-theme {
+    background: #8e0936;
+    border-color: #8e0936;
+    color: #fff;
+}
+
+
+.border-theme {
+    border-color: #8e0936;
+}
+
+.border-theme-b {
+    border-bottom-color: #8e0936;
+}
+
+.border-theme-t {
+    border-top-color: #8e0936;
+}
+
+.border-theme-l {
+    border-left-color: #8e0936;
+}
+
+.border-theme-r {
+    border-right-color: #8e0936;
+}
+
+.bg-new-gray {
+    background-color: #c5cfd8;
+}
+
+section {
+    border-radius: 25px;
+}
+
+.teaching-item {
+    min-height: 80px
+}
+
+.mbt-20 {
+    margin-bottom: 20px;
+}
+
+#header-01 {
+    background-color: #8e0936;
+}
+
+.feature-hover:hover .btn-feature {
+    color: #8e0936;
+    background-color: #fff;
+}
+
+.btn-feature,
+.btn + .btn.btn-feature {
+    font-size: xx-small;
+    /*border-radius: 7px;*/
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 0px;
+}
+
+@font-face {
+    font-family: Glyphicons Halflings;
+    src: url("../../fonts/glyphicons-halflings-regular.woff2");
+}
+
+caption {
+    caption-side: top;
+    /*text-align: center;*/
+}
+
+div.research-item:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e114";
+    float: right;
+    transition: all 0.5s;
+}
+
+div.research-item[aria-expanded="true"]:before {
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.research-item {
+    cursor: pointer;
+}
+
+.table-undergraduate,
+.table-undergraduate:hover {
+    color: #fff;
+    background-color: #212529;
+    border-color: #32383e;
+}
+
+.table .thead-dark th {
+    color: #fff;
+    background-color: #8e0936;
+    border-color: #67112e;
+}
+
+footer * {
+    background-color: #8e0936;
+    color: #fff;
+}
+
+aside a {
+    color: #fff;
+}			
+
+.portfolio-box-01 .filter a.mixitup-control-active {
+    background: #5c95ce;
+}
